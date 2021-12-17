@@ -1,44 +1,4 @@
-# Evaluation and submission analysis for DeepRacer
-
-This notebook has been built based on the `DeepRacer Log Analysis.ipynb` provided by the AWS DeepRacer Team. It has been reorganised and expanded to provide new views on the evaluation/racing data in a cleaner way, without the helper code which was moved into utility `.py` files.
-
-**You will find this notebook most useful for race submissions reviews and because of that it is mostly focusing on this goal.**
-
-## Usage
-
-I am assuming here that you have already become familiar with `Training_analysis.ipynb`. Therefore descriptions that you will find here may be missing some bits if already described in there.
-
-Since this file can change in the future, I recommend that you make its copy and reorganize it to your liking. This way you will not lose your changes and you'll be able to add things as you please.
-
-**This notebook isn't complete.** What I find interesting in the logs may not be what you will find interesting and useful. I recommend you get familiar with the tools and try hacking around to get the insights that suit your needs.
-
-## Contributions
-
-As usual, your ideas are very welcome and encouraged so if you have any suggestions either bring them to [the AWS DeepRacer Community](http://join.deepracing.io) or share as code contributions.
-
-## Training environments
-
-Depending on whether you're running your evaluations through the console or using the local setup, and on which setup for local training you're using, your experience will vary. As much as I would like everything to be taylored to your configuration, there may be some problems that you may face. If so, please get in touch through [the AWS DeepRacer Community](http://join.deepracing.io).
-
-For race submissions it is much more straightforward.
-
-## Requirements
-
-Before you start using the notebook, you will need to install some dependencies. If you haven't yet done so, have a look at [The README.md file](/edit/README.md#running-the-notebooks) to find what you need to install.
-
-Apart from the install, you also have to configure your programmatic access to AWS. Have a look at the guides below, AWS resources will lead you by the hand:
-
-AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
-
-Boto Configuration: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
-
-## Credits
-
-I would like to thank [the AWS DeepRacer Community](http://join.deepracing.io) for all the feedback about the notebooks. If you'd like, follow [my blog](https://codelikeamother.uk) where I tend to write about my experiences with AWS DeepRacer.
-
-# Log Analysis
-
-Let's get to it.
+# Evaluation analysis
 
 ## Imports
 
